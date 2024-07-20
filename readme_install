@@ -32,3 +32,55 @@ vi src/App.js
 vi scripts/deploy.js
 
 
+
+ubuntu@ip-172-31-26-110:~/hello$ npx hardhat node --hostname ec2-54-201-246-129.us-west-2.compute.amazonaws.com
+
+
+
+
+
+start separate terminal
+
+# deploy your smart contract
+ubuntu@ip-172-31-26-110:~/hello$ npx   hardhat run scripts/deploy.js --network localhost
+
+npm start
+
+
+run dns from browser : 
+http://ec2-54-201-246-129.us-west-2.compute.amazonaws.com:3000/
+
+
+
+
+test amounts from local console
+
+ubuntu@ip-172-31-26-110:~/hello$ npx hardhat console --network localhost
+
+
+
+
+ubuntu@ip-172-31-26-110:~/hello$ npx hardhat console --network localhost
+Welcome to Node.js v20.15.1.
+Type ".help" for more information.
+> const signers = await ethers.getSigners();
+undefined
+>  await ethers.provider.getBalance(signers[0])
+9972998753410801593136n
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
