@@ -12,6 +12,23 @@
    12  npx create-react-app gaming
    13  ls
    14  cd gaming
-   15  npx hardhat
-   16  ls
-   17  vi hardhat.config.js
+npx hardhat
+
+
+
+
+npx hardhat init
+
+# double check dns
+vi hardhat.config.js
+
+
+# you need to create the directory separate...
+vi contracts/Voting.sol
+
+# double check dns
+vi src/App.js
+
+vi scripts/deploy.js
+
+
