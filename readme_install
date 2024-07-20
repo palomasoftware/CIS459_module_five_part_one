@@ -1,0 +1,17 @@
+   1  ls
+    2  sudo apt-get update
+    3  sudo apt-get install -y ca-certificates curl gnupg
+    4  sudo mkdir -p /etc/apt/keyrings
+    5  NODE_MAJOR=20
+    6  echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | sudo tee /etc/apt/sources.list.d/nodesource.list
+    7  sudo apt-get update
+    8  sudo apt-get install nodejs -y
+    9  npm install web3
+   10  npm install --save-dev @nomiclabs/hardhat-ethers ethers @nomiclabs/hardhat-waffle ethereum-waffle chai
+   11  history
+   12  npx create-react-app gaming
+   13  ls
+   14  cd gaming
+   15  npx hardhat
+   16  ls
+   17  vi hardhat.config.js
